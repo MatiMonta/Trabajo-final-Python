@@ -1,0 +1,23 @@
+Ludmila tiene un negocio especializado en la venta de bicicletas. Hasta el momento registra todas sus operaciones en un cuaderno. Sin embargo, dado el éxito de su empresa, cada día le es más difícil poder tener control sobre las ventas de sus bicicletas y las ganancias que registra. Por esta razón, Ludmila necesita desarrollar un sistema que la ayude en su negocio. Como sabe que nos capacitamos en el curso en Programación Python se puso en contacto con nosotros para que la ayudemos a construir el sistema.
+
+Clase Bicicleteria
+
+Atributos: bicicletas: lista de objetos de bicicletas 
+ganancias: valor total de las bicicletas vendidas 
+cantidad_de_ventas: cantidad de bicicletas vendidas. 
+
+Métodos: 
+vender_bicicleta( Bicicleta): El método vender bicicleta deberá sumar 1 a la cantidad de bicicletas vendidas, a ganancias acumular el valor de la bicicleta vendida. Para saber el valor de la bicicleta por número de serie que desea vender y 
+comprar_bicicleta(Bicicleta): El método agregar bicicleta deberá agregar una nueva bicicleta en la lista bicicletas.
+
+Clase Bicicleta
+
+Atributos: 
+nro_de_serie: Cadena de caracteres alfanumérica 
+modelo: Modelo de la bicicleta año: Año del modelo 
+precio: Valor de la bicicleta 
+
+Métodos: 
+set_precio(precio): Debe poder modificar el precio de una bicicleta 
+get_precio(): Devuelve el valor del precio de una bicicleta 
+get_nro_de_serie(): Devuelve el nro de serie.
